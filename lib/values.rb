@@ -22,4 +22,12 @@ def get_the_keys (groceries)
  end 
  
  def get_the_min 
+  groceries = {
+  dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+} 
+   groceries.values.flatten.min
+ end
    
