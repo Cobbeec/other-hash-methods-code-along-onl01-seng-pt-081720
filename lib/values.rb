@@ -5,7 +5,7 @@ def get_the_values(groceries)
  groceries.values
 end
 
-def get_the_keys 
+def get_the_keys (groceries)
  groceries = {
   dairy: ["milk", "yogurt", "cheese"],
   vegetable: ["carrots", "broccoli", "cucumbers"],
