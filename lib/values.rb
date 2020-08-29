@@ -21,7 +21,7 @@ def get_the_keys (groceries)
  groceries.keys
  end 
  
- def get_the_min 
+ def get_the_min (groceries)
   groceries = {
   dairy: ["milk", "yogurt", "cheese"],
   vegetable: ["carrots", "broccoli", "cucumbers"],
